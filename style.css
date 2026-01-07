@@ -29,7 +29,7 @@ body {
     width: 100%;
 }
 
-/* Header Styling */
+
 .brand-header {
     text-align: center;
     margin-bottom: 40px;
@@ -85,7 +85,7 @@ body {
     object-fit: cover;
 }
 
-/* Info Styling */
+
 .product-info {
     padding: 25px 10px;
     text-align: center;
@@ -129,4 +129,5 @@ body {
     background-color: #000;
     transform: translateY(-2px);
     box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+
 }
