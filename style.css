@@ -1,0 +1,132 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: #f0f0f0;
+    background-image: 
+        linear-gradient(30deg, #e5e5e5 12%, transparent 12.5%, transparent 87%, #e5e5e5 87.5%, #e5e5e5),
+        linear-gradient(150deg, #e5e5e5 12%, transparent 12.5%, transparent 87%, #e5e5e5 87.5%, #e5e5e5),
+        linear-gradient(30deg, #e5e5e5 12%, transparent 12.5%, transparent 87%, #e5e5e5 87.5%, #e5e5e5);
+    background-size: 80px 140px;
+    
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Header Styling */
+.brand-header {
+    text-align: center;
+    margin-bottom: 40px;
+    width: 100%;
+    background: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    position: absolute;
+    top: 0;
+}
+
+.brand-header h1 {
+    font-weight: 200;
+    letter-spacing: 12px;
+    color: #444;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.header-line {
+    width: 80px;
+    height: 2px;
+    background: #444;
+    margin: 20px auto 0;
+}
+
+
+.product-card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 380px;
+    padding: 15px; 
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    margin-top: 120px; 
+}
+
+
+.card-inner-border {
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+}
+
+.product-image {
+    width: 100%;
+    height: 380px;
+    background: #f9f9f9;
+    overflow: hidden;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Info Styling */
+.product-info {
+    padding: 25px 10px;
+    text-align: center;
+}
+
+.product-name {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 8px;
+}
+
+.product-description {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 12px;
+}
+
+.price {
+    display: block;
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 25px;
+}
+
+
+.add-to-cart {
+    width: 180px;
+    padding: 14px;
+    background-color: #2d3136;
+    color: white;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.add-to-cart:hover {
+    background-color: #000;
+    transform: translateY(-2px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+}
